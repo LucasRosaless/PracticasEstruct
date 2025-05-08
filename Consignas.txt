@@ -1,0 +1,73 @@
+🧪 Mini Parcial de Práctica – Estructura de Datos y Algoritmos II
+Ejercicio 1: POO y Colecciones (PRA1 + TEO4)
+Implementá una clase Curso que represente un curso universitario con los siguientes requisitos:
+
+Almacene estudiantes usando una colección apropiada.
+
+Permita:
+Agregar estudiantes.
+Imprimir la lista de estudiantes.
+Buscar un estudiante por nombre.
+Obtener la cantidad de estudiantes inscriptos.
+Indicaciones:
+Usar ArrayList.
+Proveer métodos bien documentados.
+Escribir una clase CursoTest con al menos 3 tests.
+
+
+
+
+Ejercicio 2: Uso de Mapas (PRA3 + TEO5)
+Definí una clase PhoneBook que represente una agenda telefónica, tal como se solicita en la práctica 3.
+ Implementá los siguientes métodos:
+
+addEntry(String nombre, String telefono)
+changePhone(String nombre, String nuevoTelefono)
+delContact(String nombre)
+lookupNumber(String nombre)
+getAllContacts()
+Además, escribí una clase de test PhoneBookTest con casos positivos y negativos.
+
+
+
+
+Ejercicio 3: Herencia y Polimorfismo (PRA4)
+Modelá el siguiente escenario:
+
+Clase Person
+Subclases: Teacher, Student
+Subclase de Student: PhDStudent
+Agregá atributos relevantes y métodos como getRole() que devuelva un String. Luego:
+Instanciá objetos de cada clase en Main.java
+Mostrá qué métodos se ejecutan en base al tipo dinámico del objeto.
+
+
+
+Ejercicio 4: Pila genérica (PRA5)
+Implementá una clase Pila<T> con las operaciones:
+
+void push(T elemento)
+T pop()
+T peek()
+boolean isEmpty()
+
+Requisitos:
+Que todas las operaciones sean de tiempo constante.
+Usar una estructura de datos eficiente.
+Escribí una clase de prueba PilaTest.
+
+
+
+Ejercicio 5: Balanceo de paréntesis (PRA5)
+Implementá un método:
+
+java
+Copiar
+Editar
+public static boolean estaBalanceado(String cadena)
+Que retorne true si la cadena está bien balanceada en cuanto a (), [] y {}. Por ejemplo:
+
+[(())] → true
+
+[(]) → false
+
