@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CursoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-06T23:42:14" hostname="PC-ROSALES" time="0.035">
+  <properties/>
+  <testcase name="testBuscarEstudianteInexistente()" classname="CursoTest" time="0.028"/>
+  <testcase name="testAgregarYBuscarEstudiante()" classname="CursoTest" time="0.005"/>
+  <system-out><![CDATA[Curso Genreado Correctmente! 
+Curso Genreado Correctmente! 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
